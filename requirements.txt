@@ -1,0 +1,7 @@
+# DPI Engine (Python port) has no external dependencies.
+# Everything is built on the standard library:
+#   struct, socket, threading, queue-like primitives (via threading.Condition),
+#   dataclasses, enum, collections.
+#
+# This mirrors the original C++ project, which also had zero external
+# library dependencies (see original README: "No external libraries needed!").
